@@ -170,3 +170,14 @@
     background: var(--color-hover);
     cursor: pointer;
 }
+
+.main2{
+    display: flex;
+    border: solid var(--color-primary); 
+    width: 95%;
+    height: 86vh;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
