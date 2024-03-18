@@ -1,0 +1,279 @@
+@import url("./variables.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header__logo{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    align-items: center;
+    justify-content: end;
+}
+
+.header__logo img{
+    display: flex;
+    background: var(--color-light);
+    width: 5vh;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 9vh;
+    margin-top: -1.2%;
+    margin-left: 2.5%;
+    align-items: center;
+    overflow-x: scroll;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nav a{
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+.nav a:hover{
+    cursor: pointer;
+    color: var(--color-opacity);
+}
+
+.main{
+    display: flex;
+    border: solid var(--color-primary); 
+    width: 95%;
+    height: 86vh;
+    margin-left: 2.5%;
+    margin-top: 0.7%;
+    border-radius: 10px;
+}
+
+.main__aside {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.main__aside__img{
+    display: flex;
+    border: solid var(--color-primary);
+    margin: 5% 5% 5% 5% ;
+    width: 90%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.main__aside__img img{
+    width: 160px;
+    height: 160px;
+}
+
+.main__article{
+    display: flex;
+    border: solid var(--color-primary);
+    margin-top: 1%;
+    width: 30%;
+    height: 95.5%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__article img{
+    width:100%;
+    height: 98%;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 2%;
+    width:48%;
+    height:95.5%;
+}
+
+.section__title{
+    display: flex;
+    margin-top: 3%;
+    width: 60%;
+    font-size: 33px;
+}
+
+.section__stars{
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    height: 4vh;
+}
+
+.section__stars img{
+    width: 35px;
+    height: 35px;
+}
+
+.section__content{
+    display: flex;
+    margin-top: 4%;
+    width: 60%;
+    font-size: 22px;
+}
+
+.section__prices{
+    display: flex;
+    margin-top: 4%;
+    width: 60%;
+    gap: 60px;
+}
+
+.section__prices h1{
+    margin-left: 2%;
+    font-size: 30px;
+}
+
+.section__prices h2{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 26px;
+}
+
+.section__button{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 8%;
+    width: 60%;
+}
+
+.section__button button{
+    border: none;
+    color: var(--color-light);
+    background: var(--color-primary);
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section__button button:hover{
+    background: var(--color-hover);
+    cursor: pointer;
+}
+
+.main2{
+    display: flex;
+    border: solid var(--color-primary); 
+    width: 95%;
+    height: 86vh;
+    margin-left: 2.5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+}
+
+.pop__Up{
+    display: flex;
+    flex-direction: column;
+    border: solid var(--color-primary);
+    background: var(--color-color);
+    border-radius: 10px;
+    width: 50%;
+    height:70vh;
+    margin-left: 25%;
+    margin-top: -40%;
+    position: absolute;
+}
+
+.pop__Up__header{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 4vh;
+}
+
+.pop__Up__header img{
+    width: 30px;
+    height: 30px;
+}
+
+.pop__Up__img{
+    display: flex;
+    border: solid var(--color-primary);
+    border-radius: 10px;
+    width: 45%;
+    height: 45%;
+    margin-top: 2%;
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop__Up__img img{
+    width: 70%;
+    height: 100%;
+}
+
+.pop__Up__title{
+    display: flex;
+    margin-left: 15%;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.pop__Up__Stars{
+    display: flex;
+    margin-left: 15%;    
+    margin-top: 2%;
+}
+
+.pop__Up__Content{
+    display: flex;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+.pop__Up__Prices{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 2%;
+    gap: 50px; 
+}
+
+.pop__Up__Prices h2{
+    margin-top: 1%;
+}
+
+.pop__Up__cant{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 2%;
+    gap:300px;  
+}
+
+.pop__Up__cant a{
+    display: flex;
+    border: none;
+    background: solid var(--color-primary);
+    text-decoration: none;
+}
+
+.pop__Up__cant button{
+    display: flex;
+    border: none;
+    background: solid var(--color-primary);
+    text-decoration: none;
+}
